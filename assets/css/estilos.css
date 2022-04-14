@@ -40,6 +40,12 @@ body {
   color: #373a3c;
 }
 
+#carouselExampleControls{
+  display: none;
+}
+
+/* mobile version start*/
+
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
@@ -49,4 +55,14 @@ body {
     width: 100px;
   }
 
+  #acercaDeMiDesktop{
+    display: none;
+  }
+
+  #carouselExampleControls{
+    display: block;
+  }
+  
 }
+
+/* mobile version end*/
