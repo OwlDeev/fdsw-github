@@ -4,11 +4,15 @@ body {
 
 /* Hero Section */
 
-#Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+.parallax {
+  background-image: url('../img/bg-hero.jpg');
+
+  height: 100%; 
+
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
 }
 
 /* Mis trabajos */
