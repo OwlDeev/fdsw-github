@@ -18,6 +18,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: 100px 100px 0px 0px;
+}
+
+.cardBorder{
+  border-radius: 100px;;
+}
+
+.cardTextAlign{
+  text-align: center;
 }
 
 /* Contacto */
