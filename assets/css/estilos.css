@@ -44,6 +44,24 @@ body {
   display: none;
 }
 
+.img-container{
+  width:630px;
+  height:380px;
+  overflow:hidden;
+}
+.img-container img{
+  width:70%;
+  height:auto
+}
+
+.formPadding{
+  padding-top: 50px;
+}
+
+.buttonForm{
+  width: 100%;
+}
+
 /* mobile version start*/
 
 @media (max-width: 768px) {
@@ -62,7 +80,7 @@ body {
   #carouselExampleControls{
     display: block;
   }
-  
+
 }
 
 /* mobile version end*/
